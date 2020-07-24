@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #E6E6FA;
+    margin-top: 20px;
+}
+
+h2 {
+    color: black;    
+    text-align: center;
+    padding: 10px;
+}
+
+div.principal {
+    background-color: #333;
+    justify-content: center;
+    display: flex;
+    margin: 10px 110px;
+}
+
+/*div.principal1 {
+    background-color: #333;
+    justify-content: center;
+    display: flex;
+    margin: 10px 110px;
+}
+
+div.principal2 {
+    background-color: #333;
+    justify-content: center;
+    display: flex;
+    margin: 10px 110px;
+} */
+
+div.box {
+	width: 300px;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding: 0px 0px 0px 50px;
+}
+  
+#menu ul li {
+    float: left;
+}
+
+#menu ul img {
+    float: left;
+    border: 2px solid black;
+    border-radius: 48%;
+    width: 55px;
+    height: 55px;
+    margin: 5px 10px 2px;
+} 
+  
+#menu ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 28px 20px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: #111;
+}
+
+div.conteudo {
+    display: inline-flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px 50px;
+}
+
+div.conteudo img {
+    float: left;
+    margin-right: 15px;
+}
+
+button {
+    background-color: #333;
+    width: 70px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+}
